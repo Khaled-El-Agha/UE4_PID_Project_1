@@ -315,9 +315,9 @@ void Atry1Pawn::BeginPlay()
 
 	this->PrevSpeedError = 30.0f;
 
-	Kp = 0.4f;
+	Kp = 0.2f;
 
-	Ki = 0.5f;
+	Ki = 0.02f;
 
 	//Kd = 0.03f;
 
